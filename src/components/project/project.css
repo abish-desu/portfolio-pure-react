@@ -1,0 +1,27 @@
+.line4{
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    border-top: 2px solid #ffffff;
+  
+    margin-top: 40.64px;
+  }
+  
+  .circle {
+    background-color: #ffffff;
+  
+    margin-top: -8px;
+    width: 15px;
+    height: 15px;
+  
+    border-radius: 50%;
+  }
+
+  .dbz-img{
+     padding-top:28.91px;
+      height: 200px;
+      width: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }

@@ -1,0 +1,29 @@
+.btn{
+    font-size: 20px;
+    padding-right: 0px;
+}
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    
+}
+.modal-container{
+    position: fixed;
+    max-width: 30rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+
+
+
+}
+

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Eina;
+  src: url(font/Eina04-Bold.ttf);
+}
+
+.home-text {
+  font-family: "Eina";
+  font-size: 45px;
+  margin: 0px;
+  padding-top: 70px;
+}
+.home-text-nxt {
+  font-family: "Eina";
+  font-size: 35px;
+  margin: 0px;
+  padding-top: 20.46px;
+}
+.line1 {
+  
+  border-top: 2px solid #ffffff;
+  
+  margin-top: 70px;
+}
+
+.circle {
+  background-color: #fafdff;
+
+  margin-top: -8px;
+  width: 15px;
+  height: 15px;
+
+  border-radius: 50%;
+}

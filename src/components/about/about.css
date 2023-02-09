@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Eina;
+  src: url(font/Eina04-Bold.ttf);
+} 
+.line2 {
+  width: 100%;
+  display: flex;
+  justify-content:space-between ;
+  border-top: 2px solid #ffffff;
+
+  margin-top: 38.18px;
+}
+
+.circle{
+  background-color: #ffffff;
+
+  margin-top: -8px;
+  width: 15px;
+  height: 15px;
+
+  border-radius: 50%;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29.02px;
+}
+.about-card{
+  width: 160px;
+}
+p{
+  font-family: "Eina";
+}
+.header{
+  font-size:15px;
+}
+.paragraph{
+  font-size: 12px;
+}

@@ -1,0 +1,146 @@
+* {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+}
+
+
+body {
+  
+  background-image: url("https://cdn.mwallpapers.com/photos/celebrities/fantasy/city-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-yuu0w.png");
+
+ 
+  height: 100%;
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@font-face {
+  font-family: Eina;
+  src: url(font/Eina04-Bold.ttf);
+} 
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.main-section {
+  margin-left: 120px;
+margin-right: auto;
+min-width: 550px;
+/* min-height: 660px; */
+}
+
+
+.connect{
+  display: flex;
+align-items:flex-end ;
+  flex-direction: column;
+  min-height: 90px;
+  justify-content: space-between;
+  
+}
+.icon{
+  font-size: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  
+}
+
+.nav-button {
+  border: none;
+  background-color: inherit;
+  font-family: "Eina";
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav-button-relative{
+  position: relative;
+}
+
+.nav-button::after{
+  content: "";
+  background-color:#9b9797;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  top: 100%;
+  position: absolute;
+  transition: 0.3s;
+}
+.nav-active {
+    color: #9b9797;
+    transition: 0.3s;
+}
+.nav-button:hover::after{
+  width: 100%;
+}
+.header-top {
+  display: flex;
+  padding-top:20px ;
+}
+.heading-name{
+  padding-left: 72px;
+  padding-top: 30px;
+  font-family: "Eina";
+  font-size: 24;
+}
+.mySlides{
+  min-height: 467px;
+}
+
+
+.photo {
+  height: 150px;
+  width: 150px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-stamp {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Eina";
+  font-size: 10px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.icon-pause{
+  font-size: 80px;
+}
+.icon-next{
+  font-size: 50px;
+}
+.icon-prev{
+  font-size: 50px;
+}
+.icon-heart{
+  font-size: 28px;
+}
+.icon-minus{
+  font-size: 28px;
+  color: #ffffff;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
