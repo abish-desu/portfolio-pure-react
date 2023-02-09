@@ -17,7 +17,7 @@ const items = [
     },
     {
         img:'./img/skill.jpg',
-        name:'Skills',
+        name:'Skill',
         sub_name:'pf',
         start:'02:00',
         end:'03:00',
