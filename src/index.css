@@ -10,12 +10,13 @@ body {
   background-image: url("https://cdn.mwallpapers.com/photos/celebrities/fantasy/city-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-yuu0w.png");
 
  
-  height: 100%;
+  height: 100vh;
 
  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 
